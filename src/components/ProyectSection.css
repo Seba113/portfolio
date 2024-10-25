@@ -1,0 +1,36 @@
+.proyectSection{
+    background-color: rgba(0, 0, 0, 0.781);
+    min-height: 60vh;
+    box-shadow: 0 0 13px 2px;
+}
+.proyectSection .container{
+    padding-top: 100px
+}
+
+.proyectSection h3, .proyectSection h4{
+    color: #fff
+}
+
+.proyectSection .span{
+    color: #31ffffc9
+}
+
+
+.proyectSection a img{
+    border-radius: 5%;
+    min-height: 22vh;
+    box-shadow: 0 0 10px #31ffffc9;
+    
+}
+
+.proyectSection a img:hover{
+    box-shadow: 0 0 20px #31ffffc9;
+    transition: all 0.3s ease;
+}
+
+.stackProyects{
+    background-color: rgba(77, 74, 74, 0.356);
+    width: fit-content;
+    padding: 8px;
+    margin-top: 10px;
+}

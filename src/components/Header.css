@@ -1,0 +1,19 @@
+img{
+    max-height: 3rem;
+    border-radius: 50%;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.979);
+    max-height: 6rem;
+    box-shadow: 0 0 13px 2px;
+}
+
+.header a{
+    color: #ffffffb4
+}
+
+
+.name-content{
+    flex-direction: column;
+}

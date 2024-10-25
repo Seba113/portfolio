@@ -1,0 +1,19 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.781);;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h3, .footer h4{
+    color: #fff
+}
+
+.footer .container{
+    width: 40%;
+}
+
+.footer 
+
+.footer a:hover{
+    box-shadow: 0 0 15px rgba(8, 155, 160, 0.952);
+}
