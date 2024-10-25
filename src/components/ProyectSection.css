@@ -1,36 +1,62 @@
-.proyectSection{
+.proyectSection {
     background-color: rgba(0, 0, 0, 0.781);
     min-height: 60vh;
     box-shadow: 0 0 13px 2px;
-}
-.proyectSection .container{
-    padding-top: 100px
+    padding: 20px; /* Agrega algo de espacio alrededor */
 }
 
-.proyectSection h3, .proyectSection h4{
-    color: #fff
+.proyectSection .container {
+    padding-top: 100px;
 }
 
-.proyectSection .span{
-    color: #31ffffc9
+.proyectSection h3, 
+.proyectSection h4 {
+    color: #fff;
 }
 
+.proyectSection .span {
+    color: #31ffffc9;
+}
 
-.proyectSection a img{
+.proyectSection a {
+    display: block; /* Asegura que los enlaces ocupen todo el contenedor */
+}
+
+.proyectSection a img {
     border-radius: 5%;
-    min-height: 22vh;
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 10vh;
     box-shadow: 0 0 10px #31ffffc9;
-    
+    margin-bottom: 30px;
 }
 
-.proyectSection a img:hover{
+.proyectSection a img:hover {
     box-shadow: 0 0 20px #31ffffc9;
     transition: all 0.3s ease;
 }
 
-.stackProyects{
+.stackProyects {
     background-color: rgba(77, 74, 74, 0.356);
     width: fit-content;
     padding: 8px;
     margin-top: 10px;
+    text-align: center;
+}
+
+/* Media Queries para ajustar estilos en pantallas pequeñas */
+@media (max-width: 576px) {
+    .proyectSection .container {
+        padding-top: 50px; /* Reduce el padding en móviles */
+    }
+
+    .proyectSection h3,
+    .proyectSection h4 {
+        font-size: 1.5rem; /* Ajusta el tamaño de los encabezados en móviles */
+    }
+
+    .stackProyects {
+        width: auto; /* Permite que el ancho se ajuste automáticamente */
+        margin: 0 auto; /* Centra el stack en móviles */
+    }
 }
